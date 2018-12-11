@@ -14,6 +14,7 @@ import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/sh
   declarations: [
     AppComponent,
     HeaderComponent,
+    RecipesComponent,
     RecipeItemComponent,
     RecipeDetailComponent,
     RecipeListComponent,
