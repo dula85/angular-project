@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  activeLink:string = "Recipe";
 
+  setActiveLink(link:string){
+    this.activeLink = link;
+  }
 }
